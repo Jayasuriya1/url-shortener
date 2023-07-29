@@ -154,10 +154,10 @@ export default function UrlList() {
                         </p>
                         <a
                           style={{ paddingLeft: "30px", color: "#011746" }}
-                          href={`http://localhost:3000/${data.shortUrl}`}
+                          href={`https://shorturl0.netlify.app/${data.shortUrl}`}
                           target="_blank"
                         >
-                          <LinkIcon /> http://localhost:3000/{data.shortUrl}
+                          <LinkIcon /> https://shorturl0.netlify.app/{data.shortUrl}
                         </a>
                         <span style={{ paddingLeft: "30px" }}>
                           <VisibilityIcon /> {data.clickCount}
